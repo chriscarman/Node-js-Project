@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "First Node project",
   "main": "index.html",
-  "scripts": {
+  "scripts":{ 
+	"dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chriscarman/Node-js-Project/issues"
   },
-  "homepage": "https://github.com/chriscarman/Node-js-Project#readme"
+  "homepage": "https://github.com/chriscarman/Node-js-Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
