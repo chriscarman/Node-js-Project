@@ -50,7 +50,7 @@ gulp.task( 'copyfont2', async function(){
 });
 
 gulp.task('imagemin',function(){
-	return gulp.src('./img/*.webp')
+	return gulp.src('./img/**/*.{png,webp,jpg}')
 		.pipe(imagemin({optimizationLevel: 3, progressive:true, interlaced:true}))
 		.pipe(gulp.dest('dist/img'));
 });
